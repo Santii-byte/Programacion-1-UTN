@@ -1,0 +1,1 @@
+monto=input("Ingrese el monto que desa pedir: ")
