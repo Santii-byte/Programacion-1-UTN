@@ -59,23 +59,19 @@ else:
 
 #8)
 nombre=input("Ingrese su nombre: ")
-while True:
-    opcion=input("""Ingrese una opcion:
+opcion=input("""Ingrese una opcion:
 1:Tu nombre en mayusculas
 2:Tu nombre en minusculas
 3:La primer letra en mayusculas
 """)
-    if opcion=="1":
-        print(nombre.upper())
-        break
-    elif opcion=="2":
-        print(nombre.lower())
-        break
-    elif opcion=="3":
-        print(nombre.title())
-        break
-    else:
-        print("Opcion incorrecta.")
+if opcion=="1":
+    print(nombre.upper())
+elif opcion=="2":
+    print(nombre.lower())
+elif opcion=="3":
+    print(nombre.title())
+else:
+    print("Opcion incorrecta.")
 
 #9)
 mag=int(input("Ingrees la magnitud del terremoto: "))
