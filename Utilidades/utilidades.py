@@ -40,3 +40,22 @@ eliminado = frutas.pop(1)  # elimina "mango" y lo guarda en 'eliminado'
 # Vaciar lista
 frutas.clear()  # lista queda []
 
+
+
+#BUSCAR ELEMENTOS
+
+print("kiwi" in frutas)  # True o False
+print(frutas.index("kiwi"))  # devuelve índice
+
+
+
+#OTROS UTILES
+# Tamaño de la lista
+len(frutas)
+
+# Ordenar
+frutas.sort()         # alfabéticamente
+frutas.sort(reverse=True)  # descendente
+
+# Invertir orden
+frutas.reverse()
