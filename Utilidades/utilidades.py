@@ -59,3 +59,41 @@ frutas.sort(reverse=True)  # descendente
 
 # Invertir orden
 frutas.reverse()
+
+
+
+
+
+
+
+
+
+
+#Diccionarios
+#Si la clave no existe, Python dará un error. Para evitarlo, puedes usar get():
+persona = {
+    "nombre": "Santino",
+    "edad": 25,
+    "ciudad": "Buenos Aires"
+}
+print(persona.get("profesion", "No especificada"))  # Salida: No especificada
+
+# Recorrer claves
+for clave in persona:
+    print(clave, persona[clave])
+
+# Recorrer claves y valores
+for clave, valor in persona.items():
+    print(clave, valor)
+
+# Obtener todas las claves
+claves = persona.keys()
+
+# Obtener todos los valores
+valores = persona.values()
+
+# Copiar un diccionario
+copia = persona.copy()
+
+# Limpiar todo el diccionario
+persona.clear()
